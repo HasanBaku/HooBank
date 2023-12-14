@@ -329,8 +329,9 @@ margin-left: 100px;
         display: flex;
         flex-direction: column;
         align-items: start;
-        padding-top: 10%;
-        margin-left: 20%;
+        padding-top: 5%;
+        margin-left: 10%;
+
 
 }
 `
