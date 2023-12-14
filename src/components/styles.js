@@ -257,7 +257,7 @@ background: linear-gradient(to top left, #01264f 5%, #040c18 50%);
 
 @media screen and (max-width: 650px) {
     .home-left{
-        width: 90%;
+        width: 80%;
     }
 
     .title-section h1{
