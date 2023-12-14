@@ -6,8 +6,8 @@ function Features() {
     <Info>
   <Container_numbers>
     <p className='numbers'>3800+ <span>USER ACTIVE</span></p>
-    <p className='numbers'>3800+ <span>TRUSTED BY COMPANY</span></p>
-    <p className='numbers'>3800+ <span>TRANSACTION</span></p>
+    <p className='numbers'>230+ <span>TRUSTED BY COMPANY</span></p>
+    <p className='numbers'>230M+ <span>TRANSACTION</span></p>
   </Container_numbers>
   </Info>
   )
