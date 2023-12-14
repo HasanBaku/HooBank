@@ -259,7 +259,11 @@ background: linear-gradient(to top left, #01264f 5%, #040c18 50%);
     .home-left{
         width: 80%;
     }
-
+        .discount{
+        font-size: 1em;
+        width: 100%;
+        padding: 5px;
+    }
     .title-section h1{
         font-size: 3.5em;
     }
