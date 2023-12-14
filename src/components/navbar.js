@@ -19,6 +19,7 @@ function Navbar() {
 
   return (
     <Header>
+        <div className="container">
         <div className="left-header">
             <img src={Logo} alt="" />
         </div>
@@ -33,18 +34,20 @@ function Navbar() {
                     <img onClick={handleClick} src={click ? Close : Burger} alt="" />
                 </ul>
             </nav>
+
+            
+        </div>
         </div>
         <div style={{ display: window.innerWidth < 820 && (click ? 'block' : 'none') }} className="right-header-mobile">
-            <nav>
-                <ul>
-                    <li onClick={closeMobile}><a href="#">Homies</a></li>
-                    <li onClick={closeMobile}><a href="#">Features</a></li>
-                    <li onClick={closeMobile}><a href="#">Product</a></li>
-                    <li onClick={closeMobile}><a href="#">Clients</a></li>
-                </ul>
-            </nav>
-        </div>
-
+     <nav>
+         <ul>
+             <li onClick={closeMobile}><a href="#">Homies</a></li>
+             <li onClick={closeMobile}><a href="#">Features</a></li>
+             <li onClick={closeMobile}><a href="#">Product</a></li>
+             <li onClick={closeMobile}><a href="#">Clients</a></li>
+         </ul>
+     </nav>
+   </div>
     </Header>
   )
 }
