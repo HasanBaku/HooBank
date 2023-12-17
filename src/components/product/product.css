@@ -1,0 +1,92 @@
+.product{
+    background-color: #060915;
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 100px;
+    overflow: hidden;
+}
+.product-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    position: relative;
+    width: 1300px;
+}
+
+.bill, .card{
+    width: 100%;
+}
+
+.product-container h2{
+    font-size: 3em;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+}
+.product-container p{
+    color: #b4b4ab;
+    font-size: 1.3em;
+    line-height: 1.4em;
+    margin-bottom: 30px;
+}
+.phone-images{
+    display: flex;
+    gap: 30px;
+}
+.product-container button{
+    padding: 20px 25px;
+    font-size: 1.4em;
+    cursor: pointer;
+    border: none;
+    border-radius: 14px;
+    background: -webkit-linear-gradient(60deg, #3fbcd2, #77effd);
+}
+
+
+
+@media screen and (max-width: 1700px) {
+    .product{
+        justify-content: space-around;
+        padding: 25px;
+        margin: 0;
+    }
+    .product-container {
+        padding: 0px 2vw 0px 2vw;
+        padding-top: 100px;
+        width: 100%;
+      }
+}
+
+@media screen and (max-width: 1040px){
+    .product-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto; /* You can adjust this based on your content */
+        gap: 10px;
+        grid-template-areas:
+          "upper-right"
+          "upper-left"
+          "down-left"
+          "down-right";
+      }
+      
+      .upper-left-product {
+        grid-area: upper-left;
+      }
+      
+      .upper-right-product {
+        grid-area: upper-right;
+      }
+      
+      .down-left-product {
+        grid-area: down-left;
+      }
+      
+      .down-right-product {
+        grid-area: down-right;
+      }
+}
